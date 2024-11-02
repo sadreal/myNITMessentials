@@ -88,14 +88,7 @@ Route::group([
         Route::get('/states/{country_id}', 'WebsiteApiController@states');
         Route::get('/cities/{state_id}', 'WebsiteApiController@cities');
         Route::get('/my-courses', 'WebsiteApiController@myCourses');
-        Route::get('/my-quizzes', 'WebsiteApiController@myQuizzes');
-        Route::get('/my-classes', 'WebsiteApiController@myClasses');
-        Route::post('/submit-review', 'WebsiteApiController@submitReview');
-        Route::post('/comment', 'WebsiteApiController@comment');
-        Route::post('/comment-reply', 'WebsiteApiController@commentReply');
-        Route::post('/delete-comment', 'WebsiteApiController@deleteComment');
-        Route::post('/delete-comment-reply', 'WebsiteApiController@deleteCommnetReply');
-        Route::post('/delete-course-review', 'WebsiteApiController@deleteReview');
+
         Route::get('/payment-methods', 'WebsiteApiController@paymentMethods');
 
         Route::post('/make-order', 'WebsiteApiController@makeOrder');
@@ -108,61 +101,11 @@ Route::group([
 
 
         //quiz route
-        Route::post('quiz-start/{course_id}/{quiz_id}', 'WebsiteApiController@quizStart');
-        Route::post('quiz-single-submit', 'WebsiteApiController@singleQusSubmit');
-        Route::post('quiz-final-submit', 'WebsiteApiController@finalQusSubmit');
-        Route::post('quiz-result/{course_id}/{quiz_id}', 'WebsiteApiController@quizResult');
-        Route::post('quiz-results', 'WebsiteApiController@quizResults');
-        Route::post('quiz-result-preview/{quiz_id}', 'WebsiteApiController@quizResultPreview');
-        //new quiz result
-        Route::post('quiz-history/{quiz_id}', 'WebsiteApiController@quizHistory');
-        Route::post('quiz-test-result/{quiz_test__id}', 'WebsiteApiController@quizTestResult');
-
-        Route::get('custom-class-messages/{class_id}', 'WebsiteApiController@getCustomClassMessages');
-        Route::post('custom-class-messages/{class_id}', 'WebsiteApiController@sendCustomClassMessages');
 
 
-        //new
-        Route::get('/news', 'WebsiteApiController@news');
-        Route::get('/activities', 'WebsiteApiController@activities');
-        Route::get('/login-devices', 'WebsiteApiController@loginDevices');
-        Route::get('/certificate-records', 'WebsiteApiController@certificateRecords');
-        Route::get('/course-list', 'WebsiteApiController@courseList');
-        Route::get('/quiz-list', 'WebsiteApiController@quizList');
-        Route::get('/learning-schedule-plans', 'WebsiteApiController@learningSchedulePlans');
-        Route::get('/learning-schedule-plan-icon/{plan_id}', 'WebsiteApiController@learningSchedulePlanIcon');
-        Route::get('/learning-schedule-plan-list/{plan_id}', 'WebsiteApiController@learningSchedulePlanList');
-        Route::get('/course-sequence/{course_id}', 'WebsiteApiController@CourseSequence');
-        Route::get('/course-report', 'WebsiteApiController@courseReport');
-        Route::get('/quiz-report', 'WebsiteApiController@quizReport');
-        Route::get('/notifications', 'WebsiteApiController@notifications');
-        Route::get('category-courses', 'CourseApiController@categoryCourses');
-        Route::post('buy-now', 'CourseApiController@buyNow');
-        Route::get('get-course-certificate/{id}', 'CourseApiController@getCertificate');
-
-        Route::get('/offline-attendance-report', 'WebsiteApiController@offlineAttendanceReport');
-        Route::post('/get-course-from-slug', 'CourseApiController@getCourseFromSlug');
-        Route::get('/blog-visit/{blog_id}', 'WebsiteApiController@visitBlogPost');
-        Route::post('/enroll-iap', 'WebsiteApiController@enrollIAP');
-
-        Route::get('/refund-list', 'WebsiteApiRefundController@index');
-        Route::get('/refund-show/{id}', 'WebsiteApiRefundController@show');
-        Route::post('/refund-create', 'WebsiteApiRefundController@store');
-        Route::post('/refund-delete', 'WebsiteApiRefundController@delete');
-
-        //my blog
-        Route::get('/my-blogs', 'BlogController@index');
-        Route::post('/my-blogs', 'BlogController@store');
-        Route::get('/my-blogs/{id}', 'BlogController@show');
-        Route::post('/my-blogs/{id}', 'BlogController@update');
-        Route::delete('/my-blogs/{id}', 'BlogController@delete');
-
-        Route::get('/blogs', 'BlogController@blogList');
-        Route::get('/blogs/{id}', 'BlogController@blogDetails');
 
 
-        Route::get('/blog-comments/{blog_id}', 'BlogController@blogCommentList');
-        Route::post('/blog-comments/{blog_id}', 'BlogController@blogCommentSubmit');
+
         Route::delete('/blog-comments/{id}', 'BlogController@blogCommentDelete');
 
     });
