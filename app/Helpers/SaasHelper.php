@@ -121,8 +121,8 @@ if (!function_exists('SaasInstitute')) {
             }
         } else {
             $institute = collect();
-            $institute->name = 'InfixLMS';
-            $institute->description = 'InfixLMS';
+            $institute->name = 'nitmadmin';
+            $institute->description = 'nitmadmin';
             $institute->domain = 'main';
             $institute->user_id = 1;
             $institute->status = 1;

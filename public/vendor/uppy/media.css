@@ -53,7 +53,7 @@
     grid-gap: 20px;
 }
 
-.infixlms_file_wrapper {
+.nitmadmin_file_wrapper {
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px; */
@@ -61,24 +61,24 @@
 }
 
 /* @media(max-width: 1780px){
-    .infixlms_file_wrapper {
+    .nitmadmin_file_wrapper {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media(max-width: 1400px){
-    .infixlms_file_wrapper {
+    .nitmadmin_file_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media(max-width: 992px){
-    .infixlms_file_wrapper {
+    .nitmadmin_file_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 } */
 
-.infixlms_file_box, .modal_file_box {
+.nitmadmin_file_box, .modal_file_box {
     border: 1px solid #ECEEF4;
     padding: 6px;
     max-width: 100%;
@@ -122,7 +122,7 @@
     margin-top: 5px;
 }
 
-.infixlms-file-box {
+.nitmadmin-file-box {
     border: 1px solid;
     width: 100%;
     max-height: 250px;
@@ -144,7 +144,7 @@
     max-height: 180px;
 }
 
-.infixlms-dropdown {
+.nitmadmin-dropdown {
     background: #ddd;
     height: 140px;
     width: 70%;
@@ -153,7 +153,7 @@
     top: 30px;
 }
 
-.infixlms-dropdown a {
+.nitmadmin-dropdown a {
     display: block;
     color: var(--text_color);
     padding: 5px 15px;
@@ -165,19 +165,19 @@
     cursor: pointer;
 }
 
-.infixlms-dropdown a {
+.nitmadmin-dropdown a {
     cursor: pointer;
 }
 
-.infixlms-dropdown a i {
+.nitmadmin-dropdown a i {
     margin-right: 10px;
 }
 
-.infixlms-file-dropdown {
+.nitmadmin-file-dropdown {
     padding: 5px;
 }
 
-.infixlms-file-content-box {
+.nitmadmin-file-content-box {
     background-color: #ddd;
     margin-top: -12px;
 }
@@ -242,7 +242,7 @@
     color: #fff !important;
 }
 
-.infixlms_file_box:hover .gallery_action {
+.nitmadmin_file_box:hover .gallery_action {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
@@ -284,7 +284,7 @@
     grid-gap: 10px;
 }
 
-/* .infixlms_file_wrapper.style2 {
+/* .nitmadmin_file_wrapper.style2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px , 1fr));
     grid-gap: 15px;
@@ -337,7 +337,7 @@
     margin: 0 20px;
 }
 
-.infixlms_file_body.single_files {
+.nitmadmin_file_body.single_files {
     max-width: 238px;
 }
 

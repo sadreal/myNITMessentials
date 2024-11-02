@@ -20,7 +20,7 @@ return [
     'Question' => 'Question',
     'No Payment done Yet' => 'No Payment done Yet',
     'No Course viewed Yet' => 'No Course viewed Yet',
-    'Engineer at InfixLMS' => 'Engineer at InfixLMS',
+    'Engineer at nitmadmin' => 'Engineer at nitmadmin',
     'Add a professional headline like' => 'Add a professional headline like',
     'Headline' => 'Headline',
     'Write Note here' => 'Write Note here',

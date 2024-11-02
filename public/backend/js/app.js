@@ -61566,10 +61566,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragonOffice\www\373_infixlms_opt\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\laragonOffice\www\373_infixlms_opt\resources\sass\backend\app.scss */"./resources/sass/backend/app.scss");
-__webpack_require__(/*! C:\laragonOffice\www\373_infixlms_opt\resources\sass\backend\backend_style.scss */"./resources/sass/backend/backend_style.scss");
-module.exports = __webpack_require__(/*! C:\laragonOffice\www\373_infixlms_opt\resources\sass\backend\backend_style_rtl.scss */"./resources/sass/backend/backend_style_rtl.scss");
+__webpack_require__(/*! C:\laragonOffice\www\373_nitmadmin_opt\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\laragonOffice\www\373_nitmadmin_opt\resources\sass\backend\app.scss */"./resources/sass/backend/app.scss");
+__webpack_require__(/*! C:\laragonOffice\www\373_nitmadmin_opt\resources\sass\backend\backend_style.scss */"./resources/sass/backend/backend_style.scss");
+module.exports = __webpack_require__(/*! C:\laragonOffice\www\373_nitmadmin_opt\resources\sass\backend\backend_style_rtl.scss */"./resources/sass/backend/backend_style_rtl.scss");
 
 
 /***/ })

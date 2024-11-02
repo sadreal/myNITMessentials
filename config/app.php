@@ -20,7 +20,7 @@ return [
     |
     */
 
-    'name' => saasEnv('APP_NAME', 'InfixLMS'),
+    'name' => saasEnv('APP_NAME', 'nitmadmin'),
 
     /*
     |--------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 <?php
 return [
-    "welcome_description" => "Thank you for choosing InfixLMS for learning management system.
-     Please follow the steps to complete InfixLMS installation!",
+    "welcome_description" => "Thank you for choosing nitmadmin for learning management system.
+     Please follow the steps to complete nitmadmin installation!",
     'install_with_seed'=>'Install with demo data',
     'phone'=>'Phone',
     'address'=>'Address',

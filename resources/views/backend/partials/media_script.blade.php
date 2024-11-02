@@ -165,12 +165,12 @@
                             thumb = '<i class="ti-files"></i>';
                         }
                         let html = `
-                            <div class="infixlms_file_body single_files" aria-hidden="${data[i].aria_hidden}" data-selected="${data[i].selected}">
+                            <div class="nitmadmin_file_body single_files" aria-hidden="${data[i].aria_hidden}" data-selected="${data[i].selected}">
                                 <div class="modal_file_box" data-value="${data[i].id}">
                                     <div class="img-box">
                                         ${thumb}
                                     </div>
-                                    <div class="infixlms_file_content-box">
+                                    <div class="nitmadmin_file_content-box">
                                         <div class="file-content-wrapper">
                                             <h5>${data[i].original_name}</h5>
                                             <p>${data[i].size} kb</p>

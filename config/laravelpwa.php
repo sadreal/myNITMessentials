@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'name' => env('APP_NAME', 'infixLMS'),
+    'name' => env('APP_NAME', 'nitmadmin'),
     'manifest' => [
-        'name' => env('APP_NAME', 'infixLMS'),
-        'short_name' => env('APP_NAME', 'infixLMS'),
+        'name' => env('APP_NAME', 'nitmadmin'),
+        'short_name' => env('APP_NAME', 'nitmadmin'),
         'start_url' => env('APP_URL'),
         'background_color' => '#ffffff',
         'theme_color' => '#000000',
