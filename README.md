@@ -89,4 +89,4 @@ Contributions are welcome! Please feel free to submit a pull request or raise an
 
 For any inquiries or feedback, please contact:
 - Author(s):
-- GitHub: [sadreal](https://github.com/sadreal) , [koyelkalita](https://github.com/koyelkalita), [shefukri]([https](https://github.com/shefukri))
+- GitHub: [sadreal](https://github.com/sadreal) , [koyelkalita](https://github.com/koyelkalita), [shefukri](https://github.com/shefukri)
