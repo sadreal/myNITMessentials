@@ -1,18 +1,4 @@
-/*!
- * FullCalendar v3.9.0
- * Docs & License: https://fullcalendar.io/
- * (c) 2018 Adam Shaw
- */
-/*!
- * FullCalendar v3.9.0 Print Stylesheet
- * Docs & License: https://fullcalendar.io/
- * (c) 2018 Adam Shaw
- */
-/*
- * Include this stylesheet on your page to get a more printer-friendly calendar.
- * When including this stylesheet, use the media='print' attribute of the <link> tag.
- * Make sure to include this stylesheet IN ADDITION to the regular fullcalendar.css.
- */
+
  .fc {
     max-width: 100% !important; }
   
